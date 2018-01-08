@@ -13,6 +13,7 @@ public class TestJunit {
 	
 	@Test
 	public void testPrintMessage() {
+		message = "Hi World";
 		assertEquals(message, messageUtil.printMessage());
 	}
 
