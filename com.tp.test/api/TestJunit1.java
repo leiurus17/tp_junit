@@ -26,6 +26,6 @@ public class TestJunit1 {
 		assertNull(temp);
 		
 		// Check for not null value
-		//assertNotNull(temp);
+		assertNotNull(temp);
 	}
 }
