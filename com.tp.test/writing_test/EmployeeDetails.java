@@ -25,6 +25,13 @@ public class EmployeeDetails {
 	/**
 	 * @return the monthlySalary
 	 */
+	public double getMonthlySalary() {
+		return monthlySalary;
+	}
+	
+	/**
+	 * @param monthlySalary the monthlySalary to set
+	 */
 	
 	public void setMonthlySalary(double monthlySalary) {
 		this.monthlySalary = monthlySalary;
@@ -45,4 +52,5 @@ public class EmployeeDetails {
 	public void setAge(int age) {
 		this.age = age;
 	}
+
 }
