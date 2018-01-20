@@ -9,8 +9,8 @@ public class MyXMLTestCase extends XMLTestCase {
 	@Test
 	public void testForXMLEquality() throws Exception {
 		String myControlXML = "<msg><uuid>0x00435A8C</uuid></msg>";
-		//String myTestXML = "<msg><uuid>0x00435A8C</uuid></msg>";
-		String myTestXML = "<msg><localId>2376</localId></msg>";
+		String myTestXML = "<msg><uuid>0x00435A8C</uuid></msg>";
+		//String myTestXML = "<msg><localId>2376</localId></msg>";
 		
 		assertXMLEqual("Comparing test XML to control XML", myControlXML, myTestXML);
 	}
