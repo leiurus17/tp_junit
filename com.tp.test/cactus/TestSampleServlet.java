@@ -1,6 +1,6 @@
 package cactus;
 
-import org.apache.cactus.*;
+//import org.apache.cactus.*;
 
 import junit.framework.*;
 
