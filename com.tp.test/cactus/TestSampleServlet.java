@@ -2,10 +2,16 @@ package cactus;
 
 import org.apache.cactus.*;
 
-import com.meterware.servletunit.ServletTestCase;
-
 import junit.framework.*;
 
 public class TestSampleServlet {
+	
+//	@Test
+//	public void testServlet() {
+//		// Initialize class to test
+//		SampleServlet servlet = new SampleServlet();
+//		
+//		//
+//	}
 
 }
